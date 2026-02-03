@@ -59,7 +59,7 @@ def render_family_graph(
                     "nodeSpacing": 200,
                     "treeSpacing": 200,
                     "direction": direction,
-                    "sortMethod": "hubsize",
+                    "sortMethod": "directed",
                     "parentCentralization": True,
                 }
             },
