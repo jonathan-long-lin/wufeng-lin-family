@@ -31,7 +31,7 @@ def render_family_graph(
 
     # Apply layout options.
     if layout_option == "hierarchical":
-        direction = st.selectbox("Select direction", options=["UD", "LR"])
+        direction = st.selectbox("Select direction", options=["UD", "LR", "DU"])
         net.from_nx(graph)
 
         # Use the generation attribute to set the hierarchical level
